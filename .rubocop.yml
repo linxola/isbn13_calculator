@@ -1,0 +1,11 @@
+AllCops:
+  NewCops: enable
+  Exclude:
+    - 'spec/spec_helper.rb'
+
+Layout/LineLength:
+  Max: 100
+  Enabled: true
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/*'
